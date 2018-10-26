@@ -28,6 +28,7 @@ then upload via FTP
 
 Files to upload:
 	index.html
+assets/favicon.icon
 	main.34udhuehd.js
 	polyfills.534dfetd.js
 	runtime.35devdb.js
