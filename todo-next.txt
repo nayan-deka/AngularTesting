@@ -1,0 +1,7 @@
+1) websocket with rxjs websocket in Angular 6
+2) master typescript
+	node ts, desktops using Electron js/ts
+3) Angular Material Design
+4) Angular 6 - Custom controls <Login>
+5) sass/scss programming
+------------------------------------------
