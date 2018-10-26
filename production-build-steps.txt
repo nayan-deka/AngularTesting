@@ -1,0 +1,38 @@
+1) Complete Unit Testing & Integrated Testing
+2) Perform e2e tesing
+3) Remove console.log statements
+4) Set following in tsconfig.json
+	"sourceMap": true
+5) Set following in angular.json
+	"optimization": true
+	"sourceMap": false
+	"aot": true // Ahead fo time compilation
+	"buildOptimizer": true
+
+TreeShaking: any Unused code(Components, Services) is removed 
+
+ng build --prod
+	- AOT build
+	- Tree shaking
+	- optimized build
+	- .map files removed
+	- creates optimized bundles
+	- add all bundles to index.html
+	- observe these files in dist
+now package dist folder and push it to git
+Integrate dist folder to Jenkins
+
+in tomcat or weblogic or IIS creates
+virtual directory for tomcat/weblogic(webapps)
+then upload via FTP
+
+Files to upload:
+	index.html
+	main.34udhuehd.js
+	polyfills.534dfetd.js
+	runtime.35devdb.js
+	styles.635deyhdyeg.js
+	vendor.65263ydgeyd.js
+to consumer:
+open browser and ww.verizon.com/index.html
+DONE !!!!!
